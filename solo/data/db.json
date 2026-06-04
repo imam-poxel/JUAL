@@ -1,0 +1,167 @@
+﻿{
+    "courses":  [
+                    {
+                        "id":  "78f04d1e161942589bcc09f191adace6",
+                        "description":  "Core survival English: greetings, daily routines, and essential sentence patterns.",
+                        "createdAt":  "2026-06-04T11:45:14.3276627Z",
+                        "level":  "A1",
+                        "targetLanguage":  "en",
+                        "title":  "English Foundations A1"
+                    },
+                    {
+                        "id":  "e44af6a2fa5f4d759841c6d9951922ed",
+                        "description":  "Kana basics, particle intuition, and beginner listening with short dialogues.",
+                        "createdAt":  "2026-06-04T11:45:14.3336627Z",
+                        "level":  "N5",
+                        "targetLanguage":  "ja",
+                        "title":  "Japanese Starter N5"
+                    },
+                    {
+                        "id":  "c86d7a593a44412db2b0309acd020433",
+                        "description":  "Hangul reading, basic verbs, and listening drills for everyday situations.",
+                        "createdAt":  "2026-06-04T11:45:14.3346634Z",
+                        "level":  "1",
+                        "targetLanguage":  "ko",
+                        "title":  "Korean Beginner 1"
+                    }
+                ],
+    "reactions":  [
+
+                  ],
+    "achievements":  [
+                         {
+                             "rule":  {
+                                          "kind":  "attempt_count",
+                                          "min":  1
+                                      },
+                             "code":  "FIRST_STEPS",
+                             "name":  "First Steps",
+                             "id":  "847c880fed1b4043abedb1d7fdbbca04",
+                             "description":  "Complete your first attempt."
+                         },
+                         {
+                             "rule":  {
+                                          "kind":  "attempt_count",
+                                          "min":  5
+                                      },
+                             "code":  "FIVE_ATTEMPTS",
+                             "name":  "Momentum",
+                             "id":  "3652f3403b3a4867a4d82938ba727a66",
+                             "description":  "Make 5 attempts."
+                         },
+                         {
+                             "rule":  {
+                                          "kind":  "streak_days",
+                                          "min":  3
+                                      },
+                             "code":  "STREAK_3",
+                             "name":  "3-Day Streak",
+                             "id":  "bd7daa6579374141acd35fb52d8b16ac",
+                             "description":  "Study 3 days in a row."
+                         }
+                     ],
+    "lessons":  [
+                    {
+                        "id":  "61c6dff8ccb0486e859fcf29848f2219",
+                        "sortOrder":  1,
+                        "courseId":  "78f04d1e161942589bcc09f191adace6",
+                        "audioUrl":  null,
+                        "title":  "Hello \u0026 Introductions",
+                        "content":  "Key phrases: Hello, Nice to meet you, I am ...\\nPattern: I am + name.\\nMini dialogue: A: Hello. B: Hello. Nice to meet you."
+                    },
+                    {
+                        "id":  "63a40752ae3948e6a1139bbc2f1768ce",
+                        "sortOrder":  2,
+                        "courseId":  "78f04d1e161942589bcc09f191adace6",
+                        "audioUrl":  null,
+                        "title":  "Daily Routine",
+                        "content":  "Verbs: wake up, work, study, sleep.\\nPattern: I + verb + at + time.\\nListening focus: reduced forms in everyday speech."
+                    },
+                    {
+                        "id":  "006f0058b07243879735807f335b537c",
+                        "sortOrder":  1,
+                        "courseId":  "e44af6a2fa5f4d759841c6d9951922ed",
+                        "audioUrl":  null,
+                        "title":  "Kana Warm-up",
+                        "content":  "Practice reading: a i u e o\\nMini phrases: hai / iie\\nListening: short kana recognition."
+                    },
+                    {
+                        "id":  "8150efd3810e4618a71433b215a0a4b6",
+                        "sortOrder":  1,
+                        "courseId":  "c86d7a593a44412db2b0309acd020433",
+                        "audioUrl":  null,
+                        "title":  "Hangul in 10 Minutes",
+                        "content":  "Consonants and vowels basics.\\nReading drills and sound-to-letter mapping.\\nShadowing: short syllable chains."
+                    }
+                ],
+    "users":  [
+
+              ],
+    "exercises":  [
+                      {
+                          "prompt":  "Recall: \u0027Nice to meet you\u0027",
+                          "lessonId":  "61c6dff8ccb0486e859fcf29848f2219",
+                          "id":  "df0686a490a34d9b9e31f0ea4e704aa3",
+                          "type":  "vocab",
+                          "data":  {
+                                       "variants":  [
+                                                        "Nice to meet you.",
+                                                        "Nice to meet you!"
+                                                    ],
+                                       "answer":  "Nice to meet you"
+                                   }
+                      },
+                      {
+                          "prompt":  "Complete: I am ___ (your name)",
+                          "lessonId":  "61c6dff8ccb0486e859fcf29848f2219",
+                          "id":  "61a8174f89fd4c2ebbec0fc7cb2305d2",
+                          "type":  "grammar",
+                          "data":  {
+                                       "explanation":  "Use \u0027I am + name\u0027 to introduce yourself.",
+                                       "answer":  "Alex"
+                                   }
+                      },
+                      {
+                          "prompt":  "Choose the correct meaning of: \u0027I wake up at seven.\u0027",
+                          "lessonId":  "63a40752ae3948e6a1139bbc2f1768ce",
+                          "id":  "26794e8689de4b99ac3ec62e9a33a3a5",
+                          "type":  "listening",
+                          "data":  {
+                                       "correctIndex":  1,
+                                       "choices":  [
+                                                       "I sleep at seven.",
+                                                       "I get up at seven.",
+                                                       "I work at seven."
+                                                   ]
+                                   }
+                      },
+                      {
+                          "prompt":  "Shadow: \u0027I study every day.\u0027",
+                          "lessonId":  "63a40752ae3948e6a1139bbc2f1768ce",
+                          "id":  "78f5cc7b4ae84c2c8c559b7c2fd529d2",
+                          "type":  "shadowing",
+                          "data":  {
+                                       "text":  "I study every day.",
+                                       "pace":  "normal"
+                                   }
+                      }
+                  ],
+    "comments":  [
+
+                 ],
+    "posts":  [
+
+              ],
+    "sessions":  [
+
+                 ],
+    "attempts":  [
+
+                 ],
+    "userAchievements":  [
+
+                         ],
+    "enrollments":  [
+
+                    ]
+}
